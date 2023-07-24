@@ -15,4 +15,8 @@ class Bank:
         else:
             print("insuff balance")
 
+    def display(self):
+        print(f"Name: {self.name} number: {self.no} balance: {self.balance}")
+        
+
         
